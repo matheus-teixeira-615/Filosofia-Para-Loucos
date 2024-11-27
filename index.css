@@ -1,0 +1,121 @@
+@import URL('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(135deg, #013a63a9, #800020b7);
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+
+.container-inicial {
+    width: 100%;
+    height: 100px;
+    background-color: #D4AF37;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-shadow: 0 -2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.filosofia-de-louco{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #D4AF37;
+    background-color: #000000;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 5px 5px;
+    text-shadow: 0 -2px 3px rgba(0, 0, 0, 0.5);
+}
+.p {
+    background-color: #ffffff;
+    z-index: 5; 
+    text-shadow: 0 -2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.container-pensamento {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.container-alerta {
+    position: relative;
+    background-color: #800020ab;
+    text-shadow: 0 -2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.h1 {
+    color: #ffffff;
+    padding: 10px 10px;
+    font-size: 25px;
+}
+strong {
+    color:#000000;
+    font-size: 30px;
+    position: relative;
+}
+
+.pensamento-1 {
+    font-size: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.295);
+}
+
+button {
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #D4AF37;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    top: 10px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+}
+.criador {
+    float: right;
+    color: #ffffff;
+}
+
+/* Estilos para o modo escuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #000000;
+}
+
+body.dark-mode .container-inicial {
+    background-color: #333333;
+}
+
+body.dark-mode .filosofia-de-louco {
+    background-color: #222222;
+    color: #D4AF37;
+}
+
+body.dark-mode .container-pensamento {
+    background-color: #333333;
+    color: #fff;
+}
+
+body.dark-mode .container-alerta {
+    background-color: #444444;
+}
+
+body.dark-mode button {
+    background-color: #333333;
+    color: #fff;
+}
+
+body.dark-mode button:hover {
+    background-color: #ffffff;
+    color: #000;
+}
